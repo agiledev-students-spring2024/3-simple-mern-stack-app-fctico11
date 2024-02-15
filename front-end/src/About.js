@@ -8,11 +8,10 @@ import React from 'react';
  * @returns The contents of this component, in JSX form.
  */
 const About = () => {
-const imageUrl = "http://localhost:3000/asset/me.png";
   return (
     <div className="about">
       <h1>About Us</h1>
-      <img src={imageUrl} alt="NFT profile picture" />
+      <img src="/me.png" alt="NFT profile picture" />
       <p>Hello all! My name is Fran. I'm in my last semester at NYU, and very excited to be taking Agile with you all! </p>
       <p></p>
     </div>
