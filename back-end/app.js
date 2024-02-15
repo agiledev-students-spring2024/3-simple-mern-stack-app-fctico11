@@ -13,7 +13,7 @@ app.use(cors()) // allow cross-origin resource sharing
 // use express's builtin body-parser middleware to parse any data included in a request
 app.use(express.json()) // decode JSON-formatted incoming POST data
 app.use(express.urlencoded({ extended: true })) // decode url-encoded incoming POST data
-app.use('/asset', express.static('public/asset'));
+app.use('/asset', express.static(path.join(__dirname, 'public', 'asset')));
 // connect to database
 mongoose
   .connect(`${process.env.DB_CONNECTION_STRING}`)

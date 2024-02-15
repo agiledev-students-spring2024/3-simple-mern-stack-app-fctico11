@@ -13,7 +13,7 @@ const imageUrl = "http://localhost:3000/asset/me.png";
     <div className="about">
       <h1>About Us</h1>
       <img src={imageUrl} alt="NFT profile picture" />
-      <p>Hello all! My name is Fran</p>
+      <p>Hello all! My name is Fran. I'm in my last semester at NYU, and very excited to be taking Agile with you all! </p>
       <p></p>
     </div>
   );
