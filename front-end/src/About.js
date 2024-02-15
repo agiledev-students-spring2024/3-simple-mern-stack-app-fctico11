@@ -1,6 +1,6 @@
 import React from 'react';
 //import './About.css';
-import me from 'public/asset/me.png'; // Path to NFT image
+//import me from 'front-end/public/asset/me.png'; // Path to NFT image
 
 
 /**
@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div className="about">
       <h1>About Us</h1>
-      <img src={me} alt="NFT profile picture" />
+      <img src="/assest/me.png" alt="NFT profile picture" />
       <p>Hello all! My name is Fran</p>
       <p></p>
     </div>
