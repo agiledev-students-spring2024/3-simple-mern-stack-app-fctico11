@@ -1,6 +1,6 @@
 import React from 'react';
 //import './About.css';
-import me from '../asset/me.png'; // Path to NFT image
+import me from 'public/asset/me.png'; // Path to NFT image
 
 
 /**
